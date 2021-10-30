@@ -4,5 +4,4 @@ let estaAprovado = true; //boolean (ajuda a construir regras no sistema,true and
 let sobrenome = undefined; //undefined
 let corSelecionada = null //usado para redifinir um valor.
 
-alterado
-alterado1234
+
