@@ -6,6 +6,6 @@ function mudarDirecao(sentido,caminho){
 };
 
 console.log(direcao);   
-mudarDirecao("primeiro esquerda","depois esquerda");
+mudarDirecao("primeiro esquerda","depois direta");
 console.log(direcao);
 
