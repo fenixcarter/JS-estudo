@@ -19,3 +19,14 @@ tipo: 'superesportivo'
 }
 console.log(veiculo);
 console.log(pessoa)
+
+let animal = {
+    nome: 'macaco',
+    animalia: 'mutantus macaquitos',
+    tempodeVida: 87,
+    mamifero: true,
+    temPelos: true,
+    cor: undefined,
+    barulho: null,
+}
+console.log(animal)
