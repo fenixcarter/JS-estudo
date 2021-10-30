@@ -22,3 +22,6 @@ console.log (estadoCivil);
 
 const valoCarro = 30;
 console.log (valoCarro);
+
+
+
