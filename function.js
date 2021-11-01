@@ -41,14 +41,4 @@ console.log(descarregou,atirar);
 
 
 
-var pedalar = "exercitar";
-function perdercalorias(velocidade, parar, descansar){
-  chegarMaisRapido = velocidade;
-  manutenção = parar;
-  beberAgua = descansar;
 
-
-console.log(manutenção);
-perdercalorias("chegar em primeiro", "parada para lanche", "")
-console.log(pedalar);
-}
