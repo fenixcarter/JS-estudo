@@ -11,6 +11,6 @@
  }
  //console.log(multiplicarpordois(10));
 
- var resultado = multiplicarpordois(5);
+ var resultados = multiplicarpordois(5);
  
- console.log(resultado);
+ console.log(resultados);
