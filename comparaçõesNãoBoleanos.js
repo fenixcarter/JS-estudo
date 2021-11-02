@@ -4,7 +4,7 @@
 // 0
 // false
 // ''
-// NaN / not a number
+// NaN / not a number.
 
 //Truthy - quando nao se esta em nenhuma das condições falsy
 
