@@ -1,4 +1,4 @@
-let pedalar = 'exercitar';
+let pedalar = 'exercitarr';
 function corrida(chegada, largada){
     saida = largada;
     termino = chegada;
