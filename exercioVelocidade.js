@@ -4,14 +4,14 @@
 //caso pontos maior que 1 -> "Carteira Suspendida"
 verificarVelocidade(130);
 
-function verificarVelocidade(velocidade){
+function verificarVelocidade(velocidadePermitida){
    const velocidadeMax = 70;
    const Kmporpontos = 5;
-    if (velocidade <= velocidadeMax)
+    if (velocidadePermitida <= velocidadeMax)
       console.log ('Ok');
    else {
       
-      const pontos = Math.floor(((velocidade - velocidadeMax) / Kmporpontos));
+      const pontos = Math.floor(((velocidadePermitida - velocidadeMax) / Kmporpontos));
       if (pontos >= 12)
         console.log('Carteira Suspensa');
       else
@@ -20,26 +20,28 @@ function verificarVelocidade(velocidade){
 
     }
     
-    //se caminhar menos que 100 passos eu canso
-    //a cada 10 passos uma parada
+    //se caminhar menos que 70 passos eu canso
+    //a cada x passos uma parada
     //math.floor()
-    //caso eu caminhe mais qe 100 e estagno
+    //caminhe sempre o dobro do que voce aguenta
 
     passosdados(80);
 
-    function passosdados(caminhar){
+function passosdados(caminhar){
     const quantidadeDpassos = 70;
-        if (caminhar <= quantidadeDpassos)
+    if (caminhar <= quantidadeDpassos)
          console.log('Eu nao me canso');
     else {
          const parar = (caminhar - quantidadeDpassos);
-        if (parar >= 70)
+         if (parar >= 70)
              console.log('canso');
-        else 
+         else 
              console.log('continuo caminhando',parar);
             
         }
     }
+
+
 
 
     
